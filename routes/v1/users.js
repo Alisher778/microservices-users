@@ -1,6 +1,6 @@
-var express = require("express");
-var router = express.Router();
-var usersController = require("../../controllers/users");
+const express = require("express");
+const router = express.Router();
+const usersController = require("../../controllers/users");
 
 router
   .get("/", usersController.list)
